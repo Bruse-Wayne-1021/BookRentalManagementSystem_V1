@@ -21,8 +21,8 @@ namespace BookRentalManagementSystem_V1
             var title=Console.ReadLine();
             Console.WriteLine("Enter the Book Auhor");
             var author=Console.ReadLine();
-            Console.WriteLine("Enter the Rental Price");
-            var RentalPrice=decimal.Parse(Console.ReadLine());
+           Console.WriteLine("Enter the Rental Price");
+            var RentalPrice = ValidateBookRentalPrice();
 
             var newBook = new Book()
             {
@@ -32,7 +32,8 @@ namespace BookRentalManagementSystem_V1
             };
 
             this.booklist.Add(newBook);
-            Console.WriteLine("Book Added successFully");
+            Console.WriteLine("Book Added Success Fully");
+           // Console.WriteLine("Book Added successFully");
 
 
          
@@ -104,6 +105,24 @@ namespace BookRentalManagementSystem_V1
             {
                 Console.WriteLine("Invalid Book id");
             }
+        }
+
+
+        public decimal ValidateBookRentalPrice()
+        {
+            decimal price = 0;
+            while (true)
+            {
+                //Console.WriteLine("enter the rental Price");
+                var RentPrice=decimal.Parse(Console.ReadLine());
+                if(RentPrice > 0)
+                {
+                    price = RentPrice;
+                    break;
+                }
+                Console.WriteLine("Enter the positive Value");
+            }
+            return price;
         }
 
 

@@ -17,6 +17,8 @@ namespace BookRentalManagementSystem_V1
         public string author { get; set; }
         public decimal rentalPrice { get; set; }
 
+        public static int TotalBooks { get; private set; } = 0;
+
 
       
 
@@ -30,6 +32,7 @@ namespace BookRentalManagementSystem_V1
             title = Title;
             author = Author;
             rentalPrice=RentalPrice;
+            TotalBooks++;
         }
         
 
