@@ -11,53 +11,14 @@ namespace BookRentalManagementSystem_V1
 {
     internal class Book
     {
-        private int bookId {  get; set; }
-        private string title { get; set; }
-        private string author { get; set; }
-        private decimal rentalPrice { get; set; }
+        public Book() { }
+        public int bookId {  get; set; }
+        public string title { get; set; }
+        public string author { get; set; }
+        public decimal rentalPrice { get; set; }
 
 
-        public string Gettitle(string title)
-        {
-            return title;
-        }
-
-        public int GetBookid(int bookId)
-        {
-            return bookId;
-        }
-
-
-        public string Getauthor(string author)
-        {
-            return author;
-        }
-        public  decimal GetRentalPrice(decimal rentalPrice)
-        {
-            return rentalPrice;
-        }
-
-
-        
-        public void SetTitle(string Title)
-        {
-            title = Title;
-        }
-
-        public void SetBookid(int Bookid )
-        {
-            bookId = Bookid;
-        }
-
-        public void SetAuthor(string Author)
-        {
-            author = Author;
-        }
-
-        public void SetRentalPrice(decimal RentalPrice)
-        {
-            rentalPrice = RentalPrice;
-        }
+      
 
 
 
@@ -65,10 +26,10 @@ namespace BookRentalManagementSystem_V1
 
         public Book(int Bookid,string Title,string Author,decimal RentalPrice)
         {
-            //bookId= Bookid;
-            //title= Title;
-            //author= Author;
-            //rentalPrice = RentalPrice;
+            bookId=Bookid;
+            title = Title;
+            author = Author;
+            rentalPrice=RentalPrice;
         }
         
 

@@ -10,6 +10,12 @@ namespace BookRentalManagementSystem_V1
     {
         static void Main(string[] args)
         {
+
+        }
+
+        public static void Mainmenu()
+        {
+
         }
     }
 }
