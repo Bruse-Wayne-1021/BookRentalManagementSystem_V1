@@ -1,0 +1,7 @@
+C:\Users\UT01261\Desktop\New folder\BookRentalManagementSystem_V1\BookRentalManagementSystem_V1\bin\Debug\BookRentalManagementSystem_V1.exe.config
+C:\Users\UT01261\Desktop\New folder\BookRentalManagementSystem_V1\BookRentalManagementSystem_V1\bin\Debug\BookRentalManagementSystem_V1.exe
+C:\Users\UT01261\Desktop\New folder\BookRentalManagementSystem_V1\BookRentalManagementSystem_V1\bin\Debug\BookRentalManagementSystem_V1.pdb
+C:\Users\UT01261\Desktop\New folder\BookRentalManagementSystem_V1\BookRentalManagementSystem_V1\obj\Debug\BookRentalManagementSystem_V1.csproj.AssemblyReference.cache
+C:\Users\UT01261\Desktop\New folder\BookRentalManagementSystem_V1\BookRentalManagementSystem_V1\obj\Debug\BookRentalManagementSystem_V1.csproj.CoreCompileInputs.cache
+C:\Users\UT01261\Desktop\New folder\BookRentalManagementSystem_V1\BookRentalManagementSystem_V1\obj\Debug\BookRentalManagementSystem_V1.exe
+C:\Users\UT01261\Desktop\New folder\BookRentalManagementSystem_V1\BookRentalManagementSystem_V1\obj\Debug\BookRentalManagementSystem_V1.pdb

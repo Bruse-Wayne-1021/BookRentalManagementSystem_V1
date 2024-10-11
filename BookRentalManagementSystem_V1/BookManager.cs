@@ -15,7 +15,7 @@ namespace BookRentalManagementSystem_V1
         public List<Book> booklist;
 
 
-        public void CreateNewBook(Book book)
+        public void CreateNewBook()
         {
             Console.WriteLine("Enter the Book Title");
             var title=Console.ReadLine();
@@ -62,6 +62,7 @@ namespace BookRentalManagementSystem_V1
             var FindID=this.booklist.Where(b=>b.bookId==Bookid).FirstOrDefault();
             if (FindID != null)
             {
+                this.booklist.Remove(FindID);
                 Console.WriteLine("Enter the Book Title");
                 var title = Console.ReadLine();
                 Console.WriteLine("Enter the Book Auhor");
